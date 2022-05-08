@@ -11,8 +11,8 @@ channel_name = 'general'
 # for weather api
 apiKey = "d61d4956b6f09f9f02e1ccdaeb7d0d1e"
 
-# bot token
-TOKEN = 'OTcyMjk2ODU5MDM1MDA0OTY4.YnXAAw.v8JCC1fe1E_nuBpAcKFOPCNyxok'
+# bot token: To serve the bot locally, enter the Discord Bot Token below.
+TOKEN = ''
 
 
 
