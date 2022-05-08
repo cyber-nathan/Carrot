@@ -4,15 +4,17 @@ import discord, random, datetime, asyncio, requests
 from discord.ext import commands
 from weather import*
 import json
+import os
+from dotenv import load_dotenv
 
-
+load_dotenv()
 channel_name = 'general'
 
 # for weather api
-apiKey = "d61d4956b6f09f9f02e1ccdaeb7d0d1e"
+apiKey = os.getenv('WEATHER_API')
 
-# bot token: To serve the bot locally, enter the Discord Bot Token below.
-TOKEN = ''
+# bot token
+TOKEN = os.getenv('DISCORD_TOKEN')
 
 
 
